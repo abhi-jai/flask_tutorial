@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Flask Form</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"/>
+    </head>
+    <body>
+        <div class="text-center">
+            <h2>Signup Forms</h2>
+        
+            <form action="/submit" method="POST">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" name="name"/>
+                </div>
+                <div class="form-group">
+                    <label>Qualification</label>
+                    <input type="text" name="qual"/>
+                </div>
+                <div class="form-group">
+                    <label>Experience</label>
+                    <input type="text" name="exp"/>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="submit"/>
+                </div>     
+            </form>
+        </div>
+    </body>
+</html>

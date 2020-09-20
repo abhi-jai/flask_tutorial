@@ -1,0 +1,16 @@
+.text-center{
+    text-align:center;
+}
+form{
+    padding:10 20px;
+}
+.form-group{
+    padding: 10px ;
+}
+.form-group label{
+    width:200px;
+}
+
+.form-group input{
+    width: 240px;
+}
